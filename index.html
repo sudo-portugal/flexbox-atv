@@ -2,25 +2,46 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex-box</title>
-  <link rel="stylesheet" href="/css/estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <link rel="stylesheet" href="/css/estilo.css">
 </head>
 
 <body>
-  <div id="container">
-    <div id="menu">
-      <ul>
-        <li class="item"><a href="/index.html">01</a></li>
-        <li class="item"><a href="/02.html">02</a></li>
-        <li class="item"><a href="/03.html">03</a></li>
-      </ul>
+    <div id="container">
+        <div id="menu">
+            <ul>
+                <li class="item"><a href="/index.html">01</a></li>
+                <li class="item"><a href="/02.html">02</a></li>
+                <li class="item"><a href="/03.html">03</a></li>
+            </ul>
+        </div>
+        <div id="layout">
+            <div id="layout-complexo">
+                <header class="layout-header">Header</header>
+                <div class="layout-main-section">
+                    <nav class="layout-menu">
+                        Menu
+                        <div class="menu-items">
+                            <button>Item 1</button>
+                            <button>Item 2</button>
+                            <button>Item 3</button>
+                        </div>
+                    </nav>
+                    <main class="layout-content">
+                        Content
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem est provident, corrupti sint atque id cumque suscipit saepe odit dolores dignissimos fugiat totam nobis similique officiis dicta cupiditate illo deleniti.</p>
+                    </main>
+                    <aside class="layout-ads">
+                        <div class="ad-item">Ad</div>
+                        <div class="ad-item">Ad</div>
+                    </aside>
+                </div>
+                <footer class="layout-footer">Footer</footer>
+            </div>
+        </div>
     </div>
-    <div id="layout">
-      <!-- COLOQUE O SEU CÓDIGO AQUI DENTRO DESSA DIV -->
-    </div>
-  </div>
 </body>
 
 </html>
